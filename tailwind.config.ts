@@ -9,12 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'custom-background': "url('/assets/background.jpg')",
+        'propostas-backgound': "url('/assets/propostas.jpg')",
       },
+
     },
   },
   plugins: [],
 };
 export default config;
+
